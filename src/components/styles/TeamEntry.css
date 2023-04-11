@@ -1,0 +1,80 @@
+/*LAYOUT SETTINGS*/
+.teamContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 4vh;
+    background-color: #F9F9F9;
+    padding: 4vh 2vw 2vh 2vw;
+    width: 35vw;
+    height: fit-content;
+    border-radius: 40px;
+}
+
+.teamRoleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 24px;
+}
+
+.teamRoles{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    text-align: start;
+}
+
+.role{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #297C50;
+    border-radius: 30px;
+    border-width: 0;
+    height: 12vh;
+    width: 15.6vw;
+    font-size: 2rem;
+}
+
+aside{
+    position: relative;
+}
+
+aside section{
+    position: absolute;
+    top: -120px;
+    left: 530px;
+}
+
+aside section a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:#69A988;
+}
+
+/*DECORATION*/
+.teamContainer h2{
+    font-size: 4rem;
+}
+
+.teamContainer section h3{
+    font-size: 2.2rem;
+}
+
+.teamContainer p{
+    font-size: 1.15rem;
+}
+
+.teamContainer a{
+    align-self: center;
+}
+
+.openRole{
+    background-color: #A3F7CB;
+}
+
+.closedRole{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #A3F7CB;
+}

@@ -1,0 +1,14 @@
+.teamListContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.teamList{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5vw;
+
+}
