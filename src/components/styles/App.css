@@ -1,0 +1,27 @@
+header{
+    height: 6vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw 0 3vw;
+}
+
+.headerClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 3vw;
+    align-items: center;
+    width: 30%;
+}
+
+.headerClass ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.headerClass ul li:hover{
+    color:#297C50;
+    text-decoration: underline;
+}

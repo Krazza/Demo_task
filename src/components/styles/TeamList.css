@@ -1,7 +1,23 @@
 .teamListContainer{
     display: flex;
+    justify-content: space-between;
+    margin: 0 7vw 0 7vw;
     flex-direction: column;
-    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.teamListContainer section{
+    padding: 4vh 0 4vh 0;
+}
+
+.teamListContainer section h1{
+    font-size: 6.25rem;
+}
+
+.teamListContainer section h3{
+    padding-top: 2vh;
+    font-size: 1.5625rem;
+    color: #959595;
 }
 
 .teamList{
@@ -9,6 +25,30 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 5vw;
+    row-gap: 8vh;
+    column-gap: 6vw;
+    max-height: fit-content;
+    padding: 0 0 4vh 0;
+}
 
+#listSection{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+input{
+    position: relative;
+    top: -200px;
+    left: 100px;
+    margin-top: 4vh;
+    align-self: center;
+    height: 5vh;
+    width: 20vw;
+    background-color: #D9D9D9;
+    font-size: 1.6rem;
+    color: #636363;
+    border-style: none;
+    border-radius: 30px;
+    padding-left: 1%;
 }

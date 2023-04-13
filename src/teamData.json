@@ -1,0 +1,46 @@
+[
+    {
+        "teamID" : "01",
+        "teamTitle" : "PINK UNICORN",
+        "teamDescription" : "We are a team of three friends studying at Aalto University. We have several ideas for the upcoming project but we are sure that we would like to approach the topic from a user centered point of ciew. We aim to develop a feasible and useful idea that is based on empathy and understanding of human psychology.",
+        "teamChallenges" : ["#Fazer01", "#Fazer02"],
+        "teamOpenRoles" : ["Designer", "Engineer 1", "Engineer 2"],
+        "searchParams" : "PINK UNICORN Fazer01 Fazer02",
+        "teamMembers" : [
+            {
+                "name" : "Jennet",
+                "role" : "UX Designer"
+            }, 
+            {
+                "name" : "Andy",
+                "role" : "Engineer"
+            }, 
+            {
+                "name" : "Selena",
+                "role" : "UI Designer"
+            }]
+
+    },
+    {
+        "teamID" : "02",
+        "teamTitle" : "DISCOVERERS",
+        "teamDescription" : "We are a team of three friends studying at Aalto University. We have several ideas for the upcoming project but we are sure that we would like to approach the topic from a user centered point of ciew. We aim to develop a feasible and useful idea that is based on empathy and understanding of human psychology.",
+        "teamChallenges" : ["#Super Cell"],
+        "teamOpenRoles" : ["Designer", "Engineer 1", "Engineer 2"],
+        "searchParams" : "DISCOVERERS Super Cell",
+        "teamMembers" : [
+            {
+                "name" : "Jennet",
+                "role" : "UX Designer"
+            }, 
+            {
+                "name" : "Andy",
+                "role" : "Engineer"
+            }, 
+            {
+                "name" : "Selena",
+                "role" : "UI Designer"
+            }]
+
+    }
+]
