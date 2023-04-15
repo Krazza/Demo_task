@@ -25,7 +25,7 @@ function TeamEntry(props)
         <h2>{teamTitle}</h2>
         <aside>
             <section>
-                {teamChallenges.map((challenge)=> <a key={challenge} href="www.chanllenge.com">{challenge}</a>)}
+                {teamChallenges.map((challenge)=> <Link key={challenge} to="/">{challenge}</Link>)}
             </section>
         </aside>
         <p>{"Our idea is to design a digital solution for mobile phones, which would focus on helping teenagers access free therapy sessions."}</p>
