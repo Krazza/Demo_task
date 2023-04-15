@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 import "./styles/ApplicationPage.css";
 
@@ -66,7 +66,7 @@ function ApplicationPage()
                 </section>
             </aside>
         <h2 className="confirmation">{"Done :)"}<br/>{"Form sent succesfully"}</h2>
-        <a href={"www.applications.com"} className="instructions link">{"View the form"}</a> 
+        <Link to="http://localhost:3000/pending-applications" className="instructions link">{"View the form"}</Link>
         <p className="instructions">{"Please wait for the team's response in your mail."}</p>  
         </div>}
     </div>)
