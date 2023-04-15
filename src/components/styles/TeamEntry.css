@@ -98,7 +98,7 @@ aside section a{
 }
 
 /*INTERACTION*/
-button{
+.teamContainer button{
     align-self: center;
     width: 8vw;
     text-decoration: underline 2px #000000;
@@ -129,15 +129,6 @@ button{
     background-color: #A3F7CB;
 }
 
-.openRole:hover{
-    background-color: #DADADA;
-    border-style: solid;
-    border-color: #297C50;
-    border-width: 4px;
-    box-sizing: border-box;
-    text-decoration: underline;    
-}
-
 .closedRole{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #A3F7CB;
 }
@@ -156,3 +147,10 @@ button{
     text-underline-offset: 10px;
 }
 
+.teamRoleContainer a{
+    color: #297C50;
+}
+
+.teamContainer a:hover{
+    color: #000000;
+}

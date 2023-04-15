@@ -9,11 +9,7 @@ function TeamEntry(props)
     const childRef = useRef(null)
     const [showAdditionalContent, setShowAdditionalContent] = useState(false);
 
-    const title = props.teamTitle;
-    const description = props.teamDescription; 
-    const challenge = props.teamChallenges;
-    const roles = props.teamOpenRoles;
-    const teamMembers = props.teamMembers;
+    const { teamID, teamTitle, teamDescription, teamChallenges, teamOpenRoles, teamMembers } = props;
 
     useEffect(() => {
         if(parentRef.current){
@@ -26,17 +22,18 @@ function TeamEntry(props)
 
     return(
     <div className="teamContainer" ref={parentRef}>
-        <h2>{title}</h2>
+        <h2>{teamTitle}</h2>
         <aside>
             <section>
-                {challenge.map((challenge)=> <a key={challenge} href="www.chanllenge.com">{challenge}</a>)}
+                {teamChallenges.map((challenge)=> <a key={challenge} href="www.chanllenge.com">{challenge}</a>)}
             </section>
         </aside>
-        <p>{description}</p>
+        <p>{"Our idea is to design a digital solution for mobile phones, which would focus on helping teenagers access free therapy sessions."}</p>
+        <p>{teamDescription}</p>
         <section className="teamRoles">
             <h3>{"WE ARE LOOKING FOR"}</h3>
             <div className="teamRoleContainer">
-                {roles.map((role) => <div key={role} className="role openRole"><Link to={`/application/${title.toLowerCase().replaceAll(" ","-")}/${role.toLowerCase()}`}>{role}</Link></div>)}
+                {teamOpenRoles.map((role) => <div key={role} className="role openRole"><Link to={`/application/${teamID}/${role}`}>{role}</Link></div>)}
             </div>
         </section>
         {showAdditionalContent && <div className="additionalContent" ref={childRef}>
@@ -49,10 +46,9 @@ function TeamEntry(props)
             </section>
             <section className="contactInfo">
                 <p id="inTouch">{"Get in touch"}</p>
-                <p id="email">{"pinkunicorn@junction.fi"}</p>
+                <p id="email" onClick={()=>window.location.href = "mailto:pinkunicorn@junction.fi?subject=Team%20Application&body=Hello_World;"}>{"pinkunicorn@junction.fi"}</p>
             </section>
         </div>}
-
         {showAdditionalContent ? <button onClick={() => setShowAdditionalContent(false)}>{"Show less"}</button> : <button onClick={() => setShowAdditionalContent(true)}>{"Show more"}</button>}
     </div>)
 }

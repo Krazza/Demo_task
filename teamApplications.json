@@ -1,0 +1,52 @@
+{
+  "teamApplications": [
+    {
+      "teamID": "0",
+      "teamTitle": "PINK UNICORN",
+      "applications": [
+        {
+          "id": "0",
+          "role": "Engineer",
+          "name": "Kevin",
+          "motivation": "Need rent & food money 🥹"
+        },
+        {
+          "id": "1",
+          "role": "Designer",
+          "name": "Marta",
+          "motivation": "I've always wanted a Nintendo Switch 🕹"
+        },
+        {
+          "id": "2",
+          "role": "Designer",
+          "name": "Test",
+          "motivation": "I would like to express myself through work."
+        },
+        {
+          "id": "3",
+          "role": "Engineer 1",
+          "name": "Test",
+          "motivation": "This is my dream position!"
+        }
+      ]
+    },
+    {
+      "teamID": "1",
+      "teamTitle": "DISCOVERERS",
+      "applications": [
+        {
+          "id": "0",
+          "role": "Engineer",
+          "name": "Jason",
+          "motivation": "Cars are expensive."
+        },
+        {
+          "id": "1",
+          "role": "Designer",
+          "name": "Lilith",
+          "motivation": "Summer vacation."
+        }
+      ]
+    }
+  ]
+}

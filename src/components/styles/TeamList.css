@@ -3,7 +3,7 @@
     justify-content: space-between;
     margin: 0 7vw 0 7vw;
     flex-direction: column;
-    max-height: 100vh;
+    height: 90vh;
 }
 
 .teamListContainer section{
@@ -37,11 +37,10 @@
     padding: 0;
 }
 
-input{
+#listSection input{
     position: relative;
-    top: -200px;
+    top: -150px;
     left: 100px;
-    margin-top: 4vh;
     align-self: center;
     height: 5vh;
     width: 20vw;

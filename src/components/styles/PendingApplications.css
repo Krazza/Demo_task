@@ -1,0 +1,123 @@
+@counter-style space{
+    system: cyclic;
+    symbols: 🚀 🛸 👩‍🚀 🪐 🔭 🛰;
+    suffix: " ";
+}
+
+.pendingContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7vw 0 7vw;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.pendingContainer section h1{
+    font-size: 6.25rem;
+}
+
+.pendingContainer section h3{
+    padding-top: 2vh;
+    font-size: 1.5625rem;
+    color: #959595;
+}
+
+.applicationList{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 8vh;
+    column-gap: 6vw;
+    max-height: fit-content;
+    padding: 0 0 4vh 0;
+}
+
+.applicationCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 4vh;
+    background-color: #F9F9F9;
+    padding: 4vh 2vw 2vh 2vw;
+    width: 35vw;
+    border-radius: 40px;
+    overflow: hidden;
+    height: fit-content;
+}
+
+.applicationCardContainer ul{
+    list-style-type: space;
+}
+
+.applicationCardContainer h2{
+    font-size: 3.125rem;
+    color:#94DDB7;
+}
+
+.applicationCardContainer h2 span{
+    color:#898888;
+}
+
+.motivationLetter{
+    font-size: 1.25rem;
+}
+
+.applicationCardContainer ul{
+    font-size: 1.25rem;
+    padding-left: 2vw;
+    line-height: 180%;
+}
+
+.decisionButton{
+    height: 7vh;
+    width: 9vw;
+    font-size: 2.1875rem;
+    color: #4D6972;
+    border-radius: 30px;
+    border-width: 0;
+}
+
+.teamNames{
+    font-size: 2rem;
+}
+
+.teamNamesContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 2vw;
+    row-gap: 3vh;
+    font-size: 2.2rem;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    width: 50%;
+}
+
+.teamNamesContainer button{
+    border-width: 0;
+    background-color: #FFFFFF;
+    color: #297C50;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-size: 2rem;
+}
+
+.teamNamesContainer button:hover{
+    color: #000000;
+}
+
+.accept{
+    background-color: #A3F7CB;
+}
+
+.decline{
+    background-color: #FCE0D8;
+}
+
+.buttonHolder{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    align-self: flex-end;
+}

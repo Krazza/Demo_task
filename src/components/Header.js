@@ -12,6 +12,7 @@ function Header()
                 <nav>
                     <ul>
                         <li><Link to="/">{"TEAMS LIST"}</Link></li>
+                        <li><Link to="/pending-applications">{"APPLICATIONS"}</Link></li>
                     </ul>
                 </nav>
                 <Icon icon="mdi:user-circle" color="#adadad" width="48" height="48" />

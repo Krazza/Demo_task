@@ -18,10 +18,19 @@ header{
 
 .headerClass ul li{
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
 }
 
-.headerClass ul li:hover{
-    color:#297C50;
-    text-decoration: underline;
+.headerClass ul{
+    display: flex;
+    column-gap: 2vw;
+}
+
+.headerClass a{
+    text-underline-offset: 8px;
+    color: #297C50;
+}
+
+.headerClass a:hover{
+    color: #000000;
 }
