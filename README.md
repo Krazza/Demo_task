@@ -1,6 +1,6 @@
 # Junction coding assignment
 
-## Setup
+## Project setup
 
 To run this project, use following commands:
 
