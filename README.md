@@ -1,4 +1,4 @@
-# Junction coding assignment
+# Coding assignment
 
 ## Project setup
 
